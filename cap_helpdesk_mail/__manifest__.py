@@ -7,18 +7,12 @@
     'author': "Captivea France",
     'category': 'Services/CapHelpdeskMail',
     'summary': 'Remove Helpdesk\'s weird looking mail and his button',
-    'depends': [
-        'helpdesk',
-    ],
-    'description': """
-Captivea Helpdesk Mail Override
-=================
-Remove Helpdesk's weird looking mail and his button.
-
-    """,
+    'depends': ['helpdesk'],
+    'description': """##Remove Helpdesk's weird looking mail and his button.""",
     'data': [
         'data/cap_mail_data.xml',
     ],
-    'auto_install': True,
-    'license': '',
+    'installable': True,
+    'application': False,
+    'auto_install': False,
 }
